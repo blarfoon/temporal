@@ -139,6 +139,9 @@ mod epoch_nanoseconds;
 #[cfg(feature = "tzdb")]
 pub mod tzdb;
 
+#[cfg(feature = "tzdb")]
+pub mod neo_tzdb;
+
 #[doc(hidden)]
 pub(crate) mod rounding;
 #[doc(hidden)]
